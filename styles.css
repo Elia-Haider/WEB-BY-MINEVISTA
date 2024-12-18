@@ -1,0 +1,191 @@
+.custom-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 16px; /* Text size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Smooth rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* General Body Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #0056b3;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffdd57;
+}
+
+/* Page Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Har mod alag line mein dikhane ke liye */
+.mod-card {
+    display: block; /* Ek card ko full-width par rakhna */
+    width: 100%; /* Puri line use kare */
+    margin-bottom: 20px; /* Har card ke beech spacing */
+    text-align: center; /* Content ko center mein rakhe */
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+}
+
+
+.mod-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.mod-card img {
+    width: 100%; /* Image container ke width ke hisaab se adjust kare */
+    height: auto; /* Proportionate height maintain kare */
+    border-radius: 8px; /* Rounded corners ke liye */
+    object-fit: cover; /* Image ko crop karke fill kare, distort na ho */
+}
+
+.mod-card h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.mod-card button {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mod-card button:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    transform: scale(1.05);
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.pagination button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pagination button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffdd57;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .mod-card {
+        width: 90%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .pagination button {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mod-card img {
+        height: 150px;
+    }
+
+    .pagination button {
+        width: 30px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+}
