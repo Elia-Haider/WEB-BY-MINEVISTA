@@ -1,14 +1,3 @@
-.custom-button {
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
-    padding: 10px 20px; /* Padding for size */
-    font-size: 16px; /* Text size */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Smooth rounded corners */
-    cursor: pointer; /* Pointer on hover */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
-}
-
 /* General Body Styles */
 body {
     font-family: 'Poppins', sans-serif;
@@ -35,24 +24,51 @@ header h1 {
 
 /* Navigation Bar */
 .navbar {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    background-color: #0056b3;
-    padding: 10px;
+    display: flex; /* Flexbox layout for horizontal alignment */
+    justify-content: flex-start; /* Align buttons to the left */
+    align-items: center; /* Center vertically */
+    gap: 10px; /* Space between buttons */
+    background-color: #0056b3; /* Navbar background color */
+    padding: 10px; /* Space around the buttons */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Enable horizontal scrolling for small screens */
+    white-space: nowrap; /* Prevent wrapping */
 }
 
 .navbar a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 500;
-    transition: color 0.3s;
+    text-decoration: none; /* Remove underline from links */
 }
 
-.navbar a:hover {
-    color: #ffdd57;
+/* Buttons Styling */
+.custom-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Default padding */
+    font-size: 1rem; /* Default font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: all 0.3s ease; /* Smooth hover and resize effect */
+    flex-shrink: 0; /* Prevent buttons from shrinking too much */
+}
+
+.custom-button:hover {
+    background-color: #45a049; /* Change background color on hover */
+}
+
+/* Responsive Adjustments for Buttons */
+@media (max-width: 768px) {
+    .custom-button {
+        padding: 8px 16px; /* Reduce padding for smaller screens */
+        font-size: 0.9rem; /* Reduce font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-button {
+        padding: 6px 10px; /* Further reduce padding for very small screens */
+        font-size: 0.8rem; /* Further reduce font size */
+    }
 }
 
 /* Page Container */
@@ -64,18 +80,17 @@ header h1 {
     padding: 20px;
 }
 
-/* Har mod alag line mein dikhane ke liye */
+/* Mod Card */
 .mod-card {
-    display: block; /* Ek card ko full-width par rakhna */
-    width: 100%; /* Puri line use kare */
-    margin-bottom: 20px; /* Har card ke beech spacing */
-    text-align: center; /* Content ko center mein rakhe */
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
     border: 1px solid #ddd;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     background-color: #f9f9f9;
 }
-
 
 .mod-card:hover {
     transform: translateY(-5px);
@@ -83,10 +98,10 @@ header h1 {
 }
 
 .mod-card img {
-    width: 100%; /* Image container ke width ke hisaab se adjust kare */
-    height: auto; /* Proportionate height maintain kare */
-    border-radius: 8px; /* Rounded corners ke liye */
-    object-fit: cover; /* Image ko crop karke fill kare, distort na ho */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 .mod-card h3 {
@@ -161,31 +176,38 @@ footer a:hover {
     color: #ffdd57;
 }
 
-/* Responsive Design */
+/* Responsive Design for Other Elements */
 @media (max-width: 768px) {
     .mod-card {
         width: 90%;
-    }
-
-    .navbar {
-        flex-direction: column;
-        gap: 10px;
     }
 
     .pagination button {
         width: 35px;
         height: 35px;
     }
+
+    #search-input {
+        width: 100%; /* Search input takes full width on smaller screens */
+    }
 }
 
 @media (max-width: 480px) {
     .mod-card img {
-        height: 150px;
+        height: 150px; /* Limit image height for very small screens */
     }
 
     .pagination button {
         width: 30px;
         height: 30px;
         font-size: 0.9rem;
+    }
+
+    footer a {
+        font-size: 0.9rem;
+    }
+
+    .mod-card h3 {
+        font-size: 1.1rem;
     }
 }
