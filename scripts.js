@@ -1,6 +1,6 @@
 const mods = [
-    { id: 1, title: "Optifine++ V4 (1.21, 1.20) – Fps Boost, Quick Loot, Clean UI   ", image: "images/mod1.jpg", type: "mods", link: "mods/mod1.html" },
-    { id: 2, title: "Texture Pack 1", image: "images/texture1.jpg", type: "textures", link: "texturepacks/texture1.html" },
+    { id: 1, title: "Free Inventory Management Mod for Minecraft Pe 1.19/1.21", image: "https://i.postimg.cc/T1Yrhz6k/a-thumbnail-style-image-with-a-blurred-m-Qyh-Ksla-JQ6-Wv7v-GXCd-VGRQ-Hw5l6t8x-S-q-FQ5-Lq-GX-Brg.jpg", type: "mods", link: "mods/mod1.html" },
+    { id: 2, title: "Texture Pack 1", image: "", type: "textures", link: "texturepacks/texture1.html" },
     { id: 3, title: "Resource Pack 1", image: "images/resource1.jpg", type: "resources", link: "resources/resource1.html" },
     { id: 4, title: "Map 1", image: "images/map1.jpg", type: "maps", link: "maps/map1.html" },
     { id: 5, title: "Map 2", image: "images/map2.jpg", type: "maps", link: "maps/map2.html" },
