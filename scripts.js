@@ -4,8 +4,8 @@ const mods = [
     { id: 3, title: "Resource Pack 1", image: "images/resource1.jpg", type: "resources", link: "resources/resource1.html" },
     { id: 4, title: "Map 1", image: "images/map1.jpg", type: "maps", link: "maps/map1.html" },
     { id: 5, title: "Map 2", image: "images/map2.jpg", type: "maps", link: "maps/map2.html" },
-    { id: 6, title: "Map 3", image: "images/map3.jpg", type: "maps", link: "maps/map3.html" }
-    { id: 7, title: "Texture Pack 1", image: "", type: "textures", link: "texturepacks/texture1.html" },
+    { id: 6, title: "Map 3", image: "images/map3.jpg", type: "maps", link: "maps/map3.html" },
+    { id: 7, title: "Texture Pack 1", image: "images/texture pack1.jpg", type: "textures", link: "texturepacks/texture1.html" },
 ];
 
 const container = document.getElementById("mod-container");
