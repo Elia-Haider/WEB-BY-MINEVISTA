@@ -1,7 +1,7 @@
 const mods = [
     { id: 1, title: "Free Inventory Management Mod for Minecraft Pe 1.19/1.21", image: "https://i.postimg.cc/T1Yrhz6k/a-thumbnail-style-image-with-a-blurred-m-Qyh-Ksla-JQ6-Wv7v-GXCd-VGRQ-Hw5l6t8x-S-q-FQ5-Lq-GX-Brg.jpg", type: "mods", link: "mods/mod1.html" },
     { id: 2, title: "One-Click House Mod for Minecraft pe 1.20/21", image: "https://i.postimg.cc/kM1Sfh9m/1734802246435-85720973153157280467876478870037721941.png", type: "mods", link: "mods/mod2.html" },
-    { id: 3, title: "Minecraft 1.20/21 HUD+ Mod", image: "", type: "mods", link: "mods/mod3.html" },
+    { id: 3, title: "Minecraft 1.20/21 HUD+ Mod", image: "https://i.postimg.cc/TYbSxRHc/1734803602076-172279709751400469926695088998923161458.png", type: "mods", link: "mods/mod3.html" },
     { id: 4, title: "Map 1", image: "images/map1.jpg", type: "maps", link: "maps/map1.html" },
     { id: 5, title: "Map 2", image: "images/map2.jpg", type: "maps", link: "maps/map2.html" },
     { id: 6, title: "Map 3", image: "images/map3.jpg", type: "maps", link: "maps/map3.html" },
