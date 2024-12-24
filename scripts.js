@@ -3,12 +3,13 @@ const mods = [
     { id: 2, title: "One-Click House Mod for Minecraft pe 1.20/21", image: "https://i.postimg.cc/kM1Sfh9m/1734802246435-85720973153157280467876478870037721941.png", type: "mods", link: "mods/mod2.html" },
     { id: 3, title: "HUD+ Mod for Minecraft 1.20/21 ", image: "https://i.postimg.cc/TYbSxRHc/1734803602076-172279709751400469926695088998923161458.png", type: "mods", link: "mods/mod3.html" },
     { id: 4, title: "Mini Map For Minecraft 1.20/1.21", image: "https://i.postimg.cc/6p29ZYgs/1735028582094-320607637983221219756411750619624228459.jpg", type: "mods", link: "mods/mod4.html" },
-    { id: 5, title: "F5 Mod For Minecraft 1.20/1.21", image: "images/map1.jpg", type: "mods", link: "mods/mod5.html" },
-    { id: 6, title: "Map 2", image: "images/map2.jpg", type: "maps", link: "maps/map2.html" },
-    { id: 7, title: "Map 3", image: "images/map3.jpg", type: "maps", link: "maps/map3.html" },
+    { id: 5, title: "F5 Mod For Minecraft 1.20/1.21", image: "https://i.postimg.cc/rssSCB5C/F5-button-addon.jpg", type: "mods", link: "mods/mod6.html" },
+    { id: 5, title: "Physics Items For Minecraft 1.20/1.21", image: "https://i.postimg.cc/rssSCB5C/F5-button-addon.jpg", type: "mods", link: "mods/mod5.html" },
     { id: 8, title: "Texture Pack 1", image: "images/texture pack1.jpg", type: "textures", link: "texturepacks/texture1.html" },
     { id: 9, title: "Resource Pack 1", image: "images/resource1.jpg", type: "resources", link: "resources/resource1.html" },
-    { id: 10, title: "Map 1", image: "images/map1.jpg", type: "maps", link: "maps/map1.html" }
+    { id: 10, title: "Map 1", image: "images/map1.jpg", type: "maps", link: "maps/map1.html" },
+    { id: 11, title: "Map 2", image: "images/map2.jpg", type: "maps", link: "maps/map2.html" },
+    { id: 12, title: "Map 3", image: "images/map3.jpg", type: "maps", link: "maps/map3.html" },
 ];
 
 const container = document.getElementById("mod-container");
